@@ -1,0 +1,14 @@
+kind: ContextConfig
+name: context_config
+spec:
+  component_configs:
+    - my_component_config
+
+---
+
+kind: MyComponentConfig
+name: my_component_config
+spec:
+  name: 'my_component'
+  message: 'Hello from yaml!'
+  interval: 1
